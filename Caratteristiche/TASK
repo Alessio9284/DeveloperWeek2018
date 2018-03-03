@@ -1,0 +1,33 @@
+TASK
+
+La scrittura del codice deve essere documentata usando JAVADOC , commenti o altri mezzi
+Nome significativi di variabile e funzioni
+Uso di una lingua univoca (INGLESE o ITALIANO)
+
+(TORRICELLI: HTML & JAVASCRIPT) collaborazione con JEROME MANALO 
+-Realizzare una pagina HTML di base che utilizza CSS e JS
+-Visualizzare dettagli registrazione, scrivendo una funzione POP-UP con JAVASCRIPT (scheda interna di dimensioni ridotte con opacità intorno ad essa) che permette visione dettagli della specifica registrazione
+-Ricerca tramite ID(parola chiave) nella barra di ricerca di specifiche registrazioni (JAVASCRIPT-JAVA)
+-Apertura schermata di inserimento registrazione tramite pressione del pulsante "+" (Funzione on-click di JAVASCRIPT che apre la schermata di inserimento)
+-Salvataggio inserimento e modifiche registrazione tramite pulsante "Salva" (Funzione on-click di JAVASCRIPT che collega html a java che salva e modifica i dati "string" su un file di testo)
+-Eliminazione di registrazione tramite pressione del pulsante "Elimina" (Funzione on-click di JAVASCRIPT che collega html a java che elimina i dati "string" da un file di testo)
+-Conferma di eliminazione o disdetta tramite pulsanti "Si, cancella" e "No, non cancellare" (Funzione di JAVASCRIPT "alert")
+-Metodo di ordinamento in Javascript/JAVA per ordinare le registrazione per nome o data (Funzione in JAVA per ordinare "quick sort?")
+
+(MANALO: JAVA DI BACKEND) collaborazione con ALESSIO TORRICELLI 
+-Visualizzare l'elenco di registrazione in righe leggendo il file delle registrazioni con JAVA e passandolo a HTML 
+-Codice Java che deve generare (scrivendo il codice HTML in un file.html) una pagina HTML di base
+-Scrivere dati "string" su singoli file di testo (usare una funzione/oggetto di JAVA per scrivere dentro il file "InputStreamReader")
+-Leggere dati "string" da singoli file di testo (usare una funzione/oggetto di JAVA per leggere dentro il file "FileReader")
+-Cancellare dati "string" da singoli file di testo
+
+(GOZZI: JAVA DI RETE)
+-Ricevere dati dagli altri progetti e dal simulatore
+-Inviare dati agli altri progetti e al simulatore
+-Ricerca dati specifici cliente (nome, cognome, email)che ha eseguito l'acquisto per l'azienda e dati della fattura(idfattura)
+-Gestione dei dati attraverso l'utilizzo della tavola CRUD(Create, Read, Update, Delete)
+-
+
+(SANTACROCE: JOLLY)
+-Backlog
+-...?

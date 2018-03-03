@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="it-IT">
+	<head>
+		<title>Gestione degli Incassi</title>
+		<meta charset="UTF-8"/>
+		
+		<!-- Icona -->
+		<link rel="icon" type="image/png" href="img/icona.png"/>
+		
+		<!-- Stile -->
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		
+		<!-- Jquery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		
+		<!-- Javascript -->
+		<script src="js/script.js" type="text/javascript"></script>
+	</head>
+	
+	<body>
+		<header>
+			<img id="logo" alt="" src="img/logo.png">
+			<p id="ricerca">Cerca: <input type="search"/></p>
+		</header>
+		<table id="Salva">
+			<tr>
+				<th>ID Fattura</th>
+				<th>Data</th>
+				<th>Tipologia</th>
+				<th>Importo</th>
+				<th>ID Azienda</th>
+				<th>Nome Azienda</th>
+			</tr>
+			<tr>
+				<td colspan="6">
+					<p id="inRiga">
+						<button id="Fattura">Aggiungi Fattura</button>
+						<button onclick="window.location='Online.html';">Visualizza Online</button>
+					</p>
+					<div id="myModal" class="modal">
+						<div class="modal-content">
+							<table id="registrazione">
+								<span class="close">&times;</span>
+								<tr>
+									<td>ID:</td>
+									<td><input type="text" name="ID" id="ID"><br /> <!-- ID int --></td>
+								</tr>
+								
+								<tr>
+									<td>Data:</td>
+									<td><input type="text" name="Data" id="Data"><br /> <!-- Data string--></td>
+								</tr>
+								
+								<tr>
+									<td colspan="2">
+										Tipo:<input type="radio" name="T" value="IF" checked="checked" id="IF"> Incasso Fattura <br />
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+										<input type="radio" name="T" value="EF"> Emissione Fattura<br /> <!-- Tipo string -->
+									</td>
+								</tr>
+								
+								<tr>
+									<td>Importo:</td>
+									<td><input type="text" name="I" id="Importo"><br /> <!-- Data string--></td>
+								</tr>
+									
+								<tr>
+									<td>ID Azienda:</td>
+									<td><input type="text" name="IDA" id="IDA"><br /> <!-- IDAzienda int --></td>
+								</tr>
+									
+								<tr>
+									<td>Azienda:</td>
+									<td><input type="text" name="A" id="A"><br /> <!-- Nome Azienda string--></td>
+								</tr>
+									
+								<tr>
+									<td colspan="2"><button id="button" onclick="aggiungi();">Salva</button></td>
+								</tr>
+							</table>
+						</div>
+					</div>	
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>
