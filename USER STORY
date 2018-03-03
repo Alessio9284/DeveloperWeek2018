@@ -1,0 +1,23 @@
+USER STORY
+
+  Criteri di valutazione
+  1) Molto Facile
+  2) Facile
+  3) Medio
+  4) Complesso
+  5) Altamente Complesso
+
+  -Visualizzare grafico contente l'elenco delle registrazioni in una pagina             2
+  -Visualizzare dettagli delle registrazioni mediante la stessa pagina                  3
+  -Ricerca dati specifici delle registrazioni attraverso parole chiave                  5
+  -Inserire registrazioni nell'elenco mediante l'interfaccia                            3
+  -Modificare registrazioni nell'elenco mediante l'interfaccia                          2
+  -Cancellare registrazioni nell'elenco mediante l'interfaccia                          2
+  -Ordinare elenco registrazioni per nome nell'elenco mediante l'interfaccia            2
+  -Ordinare elenco registrazioni per data nell'elenco mediante l'interfaccia            3
+  -Ricerca informazioni cliente (nome, cognome, email, ...) mediante l'azienda          5
+  -Essere in grado di condividere dati con il simulatore e gli altri progetti           5
+  -Essere in grado di recuperare dati dal simulatore e dagli altri progetti             5
+  -I dati devono essere memorizzati localmente in files                                 3                                                      
+ 
+

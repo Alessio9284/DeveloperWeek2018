@@ -1,0 +1,242 @@
+BLOG GRUPPO
+
+------------------------------------------------------------12/02/2018----------------------------------------------------------------------------------
+
+Abbiamo analizzato la richiesta del datore di lavoro/cliente e abbiamo fatto lo schema (interfaccia) del software
+
+E' stata eseguita la suddivisione di lavoro/TASK tra i vari componenti del gruppo:
+  Alessio Torricelli : Si occuperà di scrivere il codice HTML e JAVASCRIPT
+  Jerome Manalo      : Si occuperà di scrivere il codice JAVA
+  Gian Carlo Gozzi   : Si occuperà di scrivere il codice JAVA per le funzioni di rete
+  Donato Santacroce  : Assente , BACK LOG , JSON
+  
+Per ora ognuno di noi fa il backlog del lavoro che deve fare finche non torna Donato Santacroce
+
+  LAVORO SVOLTO
+
+  Analisi Del Lavoro da Fare                                                                2 ore
+
+  Jerome Manalo : Setup del ambiente di lavoro (Github) con accesso pieno a ogni membro     15 min
+                : Schema del Sito (foto)                                                    30 min
+                : Blog Gruppo                                                               2 ore
+                : Creazione Task                                                            15 min
+                : Valutazione Difficoltà delle User Story                                   10 min
+                
+  Gian Carlo Gozzi : Creazione User Story                                                   1 ora 30 min
+                   : Creazione Task                                                         1 ora 30 min
+                   : Creazione Test User Story                                              30 min
+                   : Valutazione Difficoltà delle User Story                                10 min
+                   
+  Alessio Torricelli : Schema generale del funzionamento delle varie componenti             2 ore
+                      (come lavorano insieme JAVA-HTML-JAVASCRIPT-JSON) (foto)
+                     : Creazione User Story                                                 1 ora
+                     : Valutazione Difficoltà delle User Story                              10 min
+  
+  Donato Santacroce : Assente
+  ------------------------------------------------------------13/02/2018----------------------------------------------------------------------------------
+  
+  LAVORO SVOLTO
+  
+  Standup Meeting                                                                          10 min
+  Review/Retrospect
+  
+  I lavori iniziati oggi sono stati tutti completati nell'arco della giornata lavorativa
+  senza lasciare WiP.
+  La suddivisione del lavoro è stata eseguita in modo adeguato tra i presenti,
+  la mancanza di un membro ha appesantito il lavoro degli altri.
+  Questo problema sarà probabilmente risolto domani, visto che il membro mancante ritornerà.  10 min
+  Il problema più grande è stata la perdita di tempo derivata dalla mancanza di conoscenze
+  in certi momenti in cui programmavamo in Java e Framework.
+  La strategia che adotteremo in futuro sarà quella di prepararci individualmente a casa,
+  studiando prima quello che ci serve.
+  
+  Jerome Manalo : Aggiornato i TASK e US                                                   10 min
+                : Analizzato i problemi e le cose che che da fare                          1 ora
+                : Ho fatto delle ricerche su come fare i task che ho deciso di fare        2 ore
+                : PIPPO                                                                    20 min
+                : Codice Java che genera un file HTML                                      1 ora 10 min
+                : Pair Programming per fare i test con Torricelli                          30 min
+  
+  Gian Carlo Gozzi : Aggiornamento dettagli e correzione errori dei dati nella repo        20 mins
+                   : Studio delle tecniche d'uso del framework Pippo e prove di utilizzo   3 ore 30 min
+                   : Fornito supporto ad altri membri del team & PP(Manalo)                50 min                                                                   
+  
+  Alessio Torricelli : Creazione della pagina html da dare al programma java               3 ore
+                     : Inizio del CSS e del JS relativo alla pagina index.html             1 ora
+                     : Studio delle funzioni di Pippo                                      30 min
+                     : Pair Programming per fare i test con Manalo                         30 min
+  
+  Donato Santacroce : Online (Studio di Pippo)
+  ------------------------------------------------------------14/02/2018----------------------------------------------------------------------------------
+  LAVORO SVOLTO
+  
+  Standup Meeting                                                                         10 min
+  
+  
+  Sprint di oggi:
+  -Interfaccia su HTML che permetterà con codice Java futuro di cercare nella lista                       
+  -Design accattivante nella pagina HTML
+  -Essere in grado di trasportare dati dal simulatore e dagli altri progetti tramite Pippo
+  
+  Review/Retrospect
+  Manalo:All'inizio abbiamo perso tempo perchè abbiamo diviso in modo errato il lavoro dando ai membri sbagliati altro lavoro.
+          Però l'abbiamo un pò recuperato scegliendo gli sprint fattibili o facili.
+  Torricelli: All'inizio abbiamo perso tempo perchè abbiamo diviso in modo errato il lavoro dando ai membri sbagliati altro lavoro.
+  Gozzi: Abbiamo perso tempo causa la divisione errata del lavoro, lo spostare dati su Trello che erano già presenti su GitHub.
+  Santacroce:Abbiamo perso tempo all'inizio perchè avevamo diviso i compiti in modo errato, dando ai membri sbagliati altro lavoro.
+             Fortunatamente l'abbiamo un pò ruperato scegliendo degli sprint più facili.
+  
+  
+  
+  
+  Jerome Manalo : Studio PIPPO con Santa Croce                                           30 ora
+                : Controllo errori Pagina HTML e CSS PP con Santacroce                   1 ora
+                : Abbelimento Pagina HTML PP Santacroce                                  2.30 ore
+                : Funzionalità Search in HTML                                            30 min
+  
+  Gian Carlo Gozzi :Controllo errori pagina HTML con Torricelli in PP                    1 ora
+                   :Collegamento di Pippo con la pagina HTML con Torricelli in PP        3 ore
+                   :
+                   :
+  
+  Alessio Torricelli : Creazione generale del css e del javascript                       1 ora e 30 min
+                     : PP con Gozzi parte di rete con Pippo                              2 ore e 30 min
+                     : Studio delle funzioni di JQuery                                   30 min
+                     : 
+  
+   Donato Santacroce :Studiato PIPPO con Manalo                                            30 min
+                    :Abbellimento pagina html tramite css con manalo                      2 ore e 30 min
+                    :risoluzione problemi del css con manalo                              1 ora
+                    :
+  
+  
+  
+  ------------------------------------------------------------15/02/2018----------------------------------------------------------------------------------
+  LAVORO SVOLTO
+  
+  Standup Meeting    (Manalo Ritardo Quindi lo ha fatto in chiamata)                10 min
+
+  Sprint di oggi 
+  Generazione sito HTML da JAVA
+  Essere in grado di trasportare dati dal simulatore e dagli altri progetti tramite PIPPO
+  I dati devono essere memorizzati localmente in files
+  
+  Abbiamo scelto di fare gli Sprint più facili e che hanno un minimo di collegamento tra di loro
+  
+  Review/Retrospect
+  
+  Manalo: Oggi ci siamo messi d'accordo che io avrei abbellito e aggiunto delle funzionalità al sito HTML mentre gli altri
+          tre dovevano studiare il funzionamento di pippo.
+          Quando finisco di fare il mio sito facendo PP con Santacroce.. Stavano usando un'altro sito HTML che Torricelli
+          ha scritto.. E non hanno saputo integrare il sito che ho fatto alle cose che 
+          stanno facendo e hanno continuato ad usare il sito fatto da Torricelli quindi il mio lavoro è stato buttato ed 
+          ho sprecato solo del tempo.
+          Dopo ho cercato di aiutare e farmi spiegare le cose che hanno capito di PIPPO
+          La soluzione è quello di comunicare e lavorare meglio tra di noi ma ormai
+          siamo rimasti troppo indietro.
+  
+  Gozzi:Oggi non abbiamo fatto praticamente nulla, Manalo ha perso tempo cercando di sviluppare un'altra pagina HTML che alla
+        fine non è stata nemmeno utilizzata, perdendo solo tempo.
+        La parte di PIPPO ha occupato totalmente per il resto della giornata gli altri 3 membri senza arrivare a nessun 
+        risultato consistente.oren
+        L'unico modo per migliorare è quello di prendere più seriamente la questione del lavoro, nessuno lo ha preso sul
+        serio, soprattutto Torricelli.
+  
+  Torricelli: Non conoscendo bene i comandi di Pippo non ho saputo come ricevere i dati dalla form della pagina HTML.
+  Per finire il lavoro della comunicazione tra l'HTML e Java-Rete bisogna che la pagina html sia terminata,
+  quindi ho deciso di finire i dettagli a casa e anche le funzionalità che mancano.
+  In più cercherò di imparare meglio i metodi di Pippo (come funzionano) ad esempio routeContext.getParameter()
+  o routeContext.render().
+  
+  Santacroce:Oggi è stata una giornata molto esaustiva, perchè abbiamo fatto molte cose ma sono state quasi tutte inutili. 
+             La pagina html di che abbiamo modificato io e manalo non è stata più utilizzata per un problema che abbiamo riscontrato con Pippo.
+             Non siamo riusciti a far leggere i dati del simulatore a Pippo. L'ultima ora abbiamo un pò perso le speranze e abbiamo lasciato
+             tutto mezz'ora prima della fine della lezione.
+  
+  
+  Jerome Manalo : Abbelimento pagina HTML + (pop-up registrazione)                       2 ore
+                : Correzione errori HTNL PP Santacroce                                   1 ora
+                : Validation HTML e CSS                                                  30 min
+                : Studio PIPPO con Gozzi                                                 1 ora
+                
+  
+  Gian Carlo Gozzi :Sviluppo framework Pippo(fallendo) con Santacroce e Torricelli       5 ore
+                   :
+                   :
+                   :
+  
+  Alessio Torricelli : continuo della pagina html (con javascript)                       1 ora
+                     : continuo java-rete (salvataggio su file dei registrati)           2 ore e 30 mins
+                     : prove per far funzionare il collegamento a pippo                  1 ora e 30 mins
+                     : 
+  
+  Donato Santacroce :Aiutato Gozzi e Torricelli con Pippo                                2 ore
+                    :Modificato Html con Manalo (PP)                                     1 ora
+                    :Ancora Pippo                                                        2 ore
+                    :
+  
+  
+  ------------------------------------------------------------16/02/2018----------------------------------------------------------------------------------
+  LAVORO SVOLTO
+ 
+  Abbiamo fatto una specie di Stand Up Meeting per mettere in chiaro le cose che devono essere fatte (release) 
+  e abbiamo cercato di collaborare al massimo.
+  
+   Sprint di oggi 
+  Inserimento registrazioni nell'elenco
+  Memorizzazione delle registrazioni in files
+  
+  
+  Jerome Manalo : Visualizzazione e Prelievo Dati dal Server PP Santacroce                         40 min 
+                : Visualizzazione e Prelievo Dati dal Server PP GOZZI                              3 ore
+                : Inserimento dati nella tabella tramite input PP Toricelli                        30 min
+                : Correzione e Validazione codice HTML (Gozzi e Santacroce)                        30 min
+                : Ultime modifiche                                                                 2 ore Casa
+  
+  Gian Carlo Gozzi :Sviluppo 2 pagine HTML in parallelo con gli altri membri.                      3 ore 
+                   :Tentativo finale sviluppo framework con Santacroce.                            1 ore
+                   :Correzione finale e commit finali.                                             1 ora
+                   :
+  
+  Alessio Torricelli : Registrazione dei dati nella tabella                                        3 ore e 30 min
+                     : Registrazione dei dati con Simulatore                                       1 ora
+                     : Registrazione dei dati con Simulatore (CASA->Finito)                        1 ora
+                     :
+  
+  Donato Santacroce :Visualizzazione dati da server con Manalo (PP)                                1 ora
+                    :Aggiustamento Html e Js                                                       2 ore
+                    :Cercato di far funzionare Pippo con Gozzi                                     2 ora
+                    :
+  
+  Diario Personale
+  
+   Jerome Manalo : Oggi abbiamo lavorato molto meglio rispetto a ieri.. abbiamo sfruttato bene il tempo a disposizione e siamo riusciti
+                  a fare le cose che ci siamo impostato da fare.
+                  Abbiamo cercato di collaborare molto e infatti abbiamo fatto molto PP scambiando i partner... e devo dire che è
+                  stato molto utile.. perche per esempio io e gozzi stavamo risolvendo un problema.. arriva santacroce e abbiamo 
+                  trovato l'errore in paio di minuti
+                  Secondo me se avessimo lavorato in questo modo anche ieri avremmo potuto fare molto più cose e avuto risultati 
+                  più concreti.
+                  
+  Alessio Torricelli : Stamattina siamo partiti con l'idea di finire assolutamente le cose visive e di provare a fare la parte di
+                       rete che è stata una cosa molto difficile il giorno prima. Tutto il gruppo compreso io ci volevamo provare
+                       ma è stato inconcludente. Da questa bellissima esperienza ho imparato un pochino di più ad approcciarmi con
+                       i framework (che stavo già guardando e imparando mesi prima). Quello che sicuramente dovrò migliorare nelle
+                       prossime mie esperienze sarà fare il lavoro di squadra, cioè analizzare e dividere meglio i lavori fra i vari
+                       componenti di un gruppo. Questo progetto inaspettato (e molto difficile [non sapendo la maggior parte delle
+                       cose]) mi ha tenuto impegnato per tutto il tempo a vedere un po di fretta come funzionavano i server. Anche
+                       se il progetto non si è concluso come volevo mi è stato di lezione per impegnarmi di più nei prossimi.
+  
+  Gian Carlo Gozzi: Probabilmente i disguidi di ieri hanno generato una certa voglia di fare da parte dell'intero gruppo, il che ci ha 
+                    permesso di completare almeno una o più cose per mostrare almeno qualcosa alla realease.
+                    Questo progetto è stato svolto in un modo un pò strafalcionato e credo che alla fine della storia il problema più
+                    grande è stato il tempo, perchè solo ora stiamo ingranando nel modo giusto.
+                    Quindi una correzione futura sarebbe di approfondire questo genere di attività prima di farle veramente.
+                    
+  Donato Santacroce: Oggi abbiamo fatto il punto della situazione, ovvero cercare di portare qualcosa di concreto per la presentazione
+                     di domani. Il modo con cui abbiamo lavorato ieri ci ha un pò messi in difficoltà avendo perso molto tempo. Sinceramente
+                     non ho imparato molte cose nuove da questa esperienza dato che gli ultimi argomenti sono stati spiegati molto frettolosamente
+                     e per questo motivo non siamo riusciti ad implementarli correttamente nel progetto. Tutto sommato è stata'esperienza molto 
+                     divertente.
+  ------------------------------------------------------------17/02/2018----------------------------------------------------------------------------------
+  

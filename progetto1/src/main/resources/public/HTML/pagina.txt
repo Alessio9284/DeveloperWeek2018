@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="it-IT">
+	<head>
+		<title>Home Page</title>
+		<meta charset="UTF-8" />
+		
+		<!-- Icona -->
+		<link rel="icon" type="image/png" href="img/icona.png"/>
+		
+		<!-- Stile -->
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		
+		<!-- Jquery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		
+		<!-- Javascript -->
+		<script src="js/script.js" type="text/javascript"></script>
+	</head>
+	
+	<body>
+		<header>
+			<img id="logo" alt="" src="img/logo.png">
+			<p id="ricerca">Cerca: <input type="search"/></p>
+		</header>
+		<table>
+			<tr>
+				<th>ID Fattura</th>
+				<th>Data</th>
+				<th>Tipologia</th>
+				<th>Importo</th>
+				<th>ID Azienda</th>
+				<th>Nome Azienda</th>
+			</tr>
+			<tr>
+				<td colspan="6"><button id="aggiungi" onclick="aggiungiFattura();">Aggiungi Fattura</button></td>
+			</tr>
+			<tr class="coloreChiaro">
+				<td>0001</td>
+				<td>11/11/11</td>
+				<td>???</td>
+				<td>99</td>
+				<td>27</td>
+				<td>???</td>
+			</tr>
+			<tr class="coloreScuro">
+				<td>0002</td>
+				<td>12/6/18</td>
+				<td>???</td>
+				<td>99</td>
+				<td>27</td>
+				<td>???</td>
+			</tr>
+			<tr class="coloreChiaro">
+				<td>0003</td>
+				<td>11/11/11</td>
+				<td>???</td>
+				<td>99</td>
+				<td>27</td>
+				<td>???</td>
+			</tr>
+			<tr class="coloreScuro">
+				<td>0004</td>
+				<td>11/11/11</td>
+				<td>???</td>
+				<td>99</td>
+				<td>27</td>
+				<td>???</td>
+			</tr>
+		</table>
+			
+		<footer>
+			<form method="get" action="../" id="registrazioneForm">
+				<div id="registrazione">
+					<!--<tr>
+						<td>ID:</td>
+						<td><input type="text" name="ID" id="ID"></td>
+					</tr>
+						
+					<tr>
+						<td>Data:</td>
+						<td><input type="text" name="Data" id="Data"></td>
+					</tr>
+					
+					<tr>
+						<td>Tipo:</td>
+						<td>
+							<input type="radio" name="T" value="IF" checked="checked"> Incasso Fattura 
+							<input type="radio" name="T" value="EF"> Emissione Fattura
+						</td>
+					</tr>
+					
+					<tr>
+						<td>Importo:</td>
+						<td><input type="text" name="I" id="Importo"></td>
+					</tr>
+						
+					<tr>
+						<td>ID Azienda</td>
+						<td><input type="text" name="IDA" id="IDA"></td>
+					</tr>
+						
+					<tr>
+						<td>Azienda:</td>
+						<td><input type="text" name="A" id="A"></td>
+					</tr>
+						
+					<tr>
+						<td colspan="2"><input type="submit" name="Invia" value="Salva"></td>
+					</tr>-->
+				</div>
+			</form>
+		</footer>
+	</body>
+</html>

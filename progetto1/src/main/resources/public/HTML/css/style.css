@@ -1,0 +1,85 @@
+/* style.css */
+
+body
+{
+	position: relative;
+	text-align: center;
+	background: url("../img/Arancio1.jpg") repeat-x;
+	background-attachment: fixed;
+	min-width: 700px;
+}
+
+header
+{
+	position: relative;
+}
+
+#logo
+{
+	position: absolute;
+	width: 400px;
+	left: 10px;
+	top: 10px;
+}
+
+#ricerca
+{
+	position: absolute;
+	right: 15%;
+	top: 110px;
+}
+
+table
+{
+	position: absolute;
+	left: 50%;
+	margin-left: -45%;
+	margin-top: 200px;
+	width: 90%;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+tr
+{
+	border: 1px dashed black;
+}
+
+th
+{
+	height: 50px;
+	background-color: cornflowerblue;
+}
+
+td
+{
+	border: 1px solid black;
+	height: 50px;
+}
+
+button
+{
+	height: 50px;
+	width: 100%;
+}
+
+.coloreChiaro
+{
+	background-color: aliceblue;
+}
+
+.coloreScuro
+{
+	background-color: skyblue;
+}
+
+#registrazione
+{
+	position: absolute;
+	width: 500px;
+	height: 550px;
+	
+    left: 50%;
+    margin-top: 100px;
+    margin-left: -250px;
+}
